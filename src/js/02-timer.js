@@ -1,6 +1,7 @@
 // Описаний в документації
 import flatpickr from 'flatpickr';
 flatpickr("#myID", {});
+import { Notify } from 'notiflix/build/notiflix-notify-aio';
 // Додатковий імпорт стилів
 import "flatpickr/dist/flatpickr.min.css";
 
