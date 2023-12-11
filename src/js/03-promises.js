@@ -1,7 +1,7 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
 document.body.style.backgroundColor = '#fffff';
-const form = document.querySelector('.form');
+const formRef = document.querySelector('.form');
 
 formRef.addEventListener('submit', onSubmitForm);
 
